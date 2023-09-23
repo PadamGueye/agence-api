@@ -4,9 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./index.js",
-    "devstart": "nodemon ./index.js",
-    "build": "webpack",
-    "vercel-build": "echo hello"
+    "devstart": "nodemon ./index.js"
   },
   "dependencies": {
     "@vercel/node": "^3.0.6",
